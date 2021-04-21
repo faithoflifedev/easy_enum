@@ -1,11 +1,11 @@
-import 'package:better_enum/better_enum.dart';
+import 'package:easy_enum/easy_enum.dart';
 
 part 'example.g.dart';
 
-@BetterEnum()
+@EasyEnum()
 enum VideoState { play, paused, stopped }
 
-@BetterEnum(toValue: 'theValue', toEnum: 'theRating')
+@EasyEnum(toValue: 'theValue', toEnum: 'theRating')
 enum VideoRating { none, dislike, like }
 
 class Test {

@@ -1,0 +1,24 @@
+name: easy_enum_generator
+description: Automatically generating `EasyEnum` extensions code for classes with `@EasyEnum()` annotation.
+homepage: https://github.com/faithoflifedev/easy_enum/tree/main/easy_enum_generator
+repository: https://github.com/faithoflifedev/easy_enum
+issue_tracker: https://github.com/faithoflifedev/easy_enum/issues
+
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  analyzer: ^1.5.0
+  json_serializable: ^4.1.0
+  recase: ^4.0.0
+  source_gen: ^1.0.0
+
+  easy_enum:
+    path: ../easy_enum
+    
+dev_dependencies:
+  build_runner: ^2.0.0

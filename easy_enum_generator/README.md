@@ -1,6 +1,6 @@
 [![Pub Package](https://img.shields.io/pub/v/better_enum_generator.svg)](https://pub.dev/packages/better_enum_generator)
 
-Provides [Dart Build System](https://pub.dev/packages/build) builder for generating `BetterEnum` extensions for classes annotated with [better_enum](https://pub.dev/packages/better_enum).
+Provides [Dart Build System](https://pub.dev/packages/build) builder for generating `EasyEnum` extensions for classes annotated with [better_enum](https://pub.dev/packages/better_enum).
 
 ## Usage
 

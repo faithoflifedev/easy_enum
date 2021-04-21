@@ -3,9 +3,9 @@ import 'package:build/build.dart';
 import 'package:analyzer/dart/element/element.dart';
 import 'package:recase/recase.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:better_enum/better_enum.dart';
+import 'package:easy_enum/easy_enum.dart';
 
-class BetterEnumGenerator extends GeneratorForAnnotation<BetterEnum> {
+class EasyEnumGenerator extends GeneratorForAnnotation<EasyEnum> {
   @override
   String generateForAnnotatedElement(
       Element element, ConstantReader annotation, BuildStep buildStep) {

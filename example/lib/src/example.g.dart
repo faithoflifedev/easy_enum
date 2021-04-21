@@ -3,7 +3,7 @@
 part of 'example.dart';
 
 // **************************************************************************
-// BetterEnumGenerator
+// EasyEnumGenerator
 // **************************************************************************
 
 extension VideoStateExt on VideoState {
