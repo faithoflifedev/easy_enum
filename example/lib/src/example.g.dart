@@ -6,26 +6,26 @@ part of 'example.dart';
 // EasyEnumGenerator
 // **************************************************************************
 
-extension VideoStateExt on VideoState {
+extension SimpleStateExt on SimpleState {
   String get value => ['play', 'paused', 'stopped'][index];
 }
 
-extension VideoStateTxe on String {
-  VideoState? get videoState => {
-        'play': VideoState.play,
-        'paused': VideoState.paused,
-        'stopped': VideoState.stopped,
+extension SimpleStateTxe on String {
+  SimpleState? get simpleState => {
+        'play': SimpleState.play,
+        'paused': SimpleState.paused,
+        'stopped': SimpleState.stopped,
       }[this];
 }
 
-extension VideoRatingExt on VideoRating {
+extension SomeRatingExt on SomeRating {
   String get theValue => ['none', 'dislike', 'like'][index];
 }
 
-extension VideoRatingTxe on String {
-  VideoRating? get theRating => {
-        'none': VideoRating.none,
-        'dislike': VideoRating.dislike,
-        'like': VideoRating.like,
+extension SomeRatingTxe on String {
+  SomeRating? get theRating => {
+        'none': SomeRating.none,
+        'dislike': SomeRating.dislike,
+        'like': SomeRating.like,
       }[this];
 }

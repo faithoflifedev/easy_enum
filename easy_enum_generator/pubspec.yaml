@@ -17,8 +17,7 @@ dependencies:
   recase: ^4.0.0
   source_gen: ^1.0.0
 
-  easy_enum:
-    path: ../easy_enum
+  easy_enum: ^1.0.0
     
 dev_dependencies:
   build_runner: ^2.0.0

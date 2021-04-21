@@ -1,7 +1,0 @@
-targets:
-  $default:
-    builders:
-      easy_enum_generator|serializeGeneratorBuilder:
-        enabled: True
-        generate_for:
-          - lib/src/*

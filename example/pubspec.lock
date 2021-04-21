@@ -144,9 +144,9 @@ packages:
   easy_enum:
     dependency: "direct main"
     description:
-      path: "../easy_enum"
-      relative: true
-    source: path
+      name: easy_enum
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "1.0.0"
   easy_enum_generator:
     dependency: "direct dev"
