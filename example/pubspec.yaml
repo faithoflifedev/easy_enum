@@ -8,10 +8,7 @@ environment:
 dependencies:
   json_annotation: ^4.0.1
 
-  better_enum:
-    git:
-      url: https://github.com/faithoflifedev/better_enum.git
-      path: better_enum
+  better_enum: ^1.0.0
 
 dev_dependencies:
   build_runner: ^2.0.0

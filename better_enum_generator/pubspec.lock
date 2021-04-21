@@ -32,12 +32,10 @@ packages:
   better_enum:
     dependency: "direct main"
     description:
-      path: better_enum
-      ref: HEAD
-      resolved-ref: "4d9cb98e84de9436ab85a57631455812b3c0a250"
-      url: "https://github.com/faithoflifedev/better_enum.git"
-    source: git
-    version: "0.0.0"
+      name: better_enum
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   build:
     dependency: transitive
     description:
