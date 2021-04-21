@@ -32,16 +32,20 @@ packages:
   better_enum:
     dependency: "direct main"
     description:
-      path: "../better_enum"
-      relative: true
-    source: path
+      path: better_enum
+      ref: HEAD
+      resolved-ref: d76a876962ccd21be00629cd1db910d1cfdcdedc
+      url: "https://github.com/faithoflifedev/better_enum.git"
+    source: git
     version: "0.0.0"
   better_enum_generator:
     dependency: "direct dev"
     description:
-      path: "../better_enum_generator"
-      relative: true
-    source: path
+      path: better_enum_generator
+      ref: HEAD
+      resolved-ref: d76a876962ccd21be00629cd1db910d1cfdcdedc
+      url: "https://github.com/faithoflifedev/better_enum.git"
+    source: git
     version: "1.0.0"
   build:
     dependency: transitive
