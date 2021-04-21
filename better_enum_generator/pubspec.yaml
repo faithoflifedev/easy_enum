@@ -1,7 +1,10 @@
 name: better_enum_generator
 description: Automatically generating `BetterEnum` extensions code for classes with `@BetterEnum()` annotation.
-version: 1.0.0
 homepage: https://github.com/faithoflifedev/better_enum/tree/main/better_enum_generator
+repository: https://github.com/faithoflifedev/better_enum
+issue_tracker: https://github.com/faithoflifedev/better_enum/issues
+
+version: 1.0.0
 
 publish_to: none
 
