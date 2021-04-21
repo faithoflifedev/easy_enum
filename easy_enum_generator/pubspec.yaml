@@ -6,8 +6,6 @@ issue_tracker: https://github.com/faithoflifedev/easy_enum/issues
 
 version: 1.0.0
 
-publish_to: none
-
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
