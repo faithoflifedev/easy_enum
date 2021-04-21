@@ -1,18 +1,10 @@
-# Source generation demo
+Provides [source_gen](https://pub.dev/packages/source_gen) `Generator` for generating `BetterEnum` extensions. For more info on this package check out the [main documentation file](https://pub.dev/packages/better_enum_generator).
 
-A `source_gen` package demo :) [See full video tutorial](https://youtu.be/hgDbFLnLDNc).
+## better_enum
+* Package: [better_enum](https://pub.dev/packages/better_enum)
+* [Source code](https://github.com/faithoflifedev/better_enum/tree/master/better_enum)
 
-## Instructions
 
-1. Install [**derry**](https://youtu.be/0okD1AWY2tM) script manager via Terminal/CMD Prompt
-```bash
-pub global activate derry
-```
-2. Update packages
-```bash
-derry run update_deps # script configured in pubspec.yaml file
-```
-3. Run code generator
-```bash
-derry run gencode
-```
+## better_enum_generator
+* Package: [better_enum_generator](https://pub.dev/packages/better_enum_generator)
+* [Source code](https://github.com/faithoflifedev/better_enum_generator/tree/master/better_enum_generator)
