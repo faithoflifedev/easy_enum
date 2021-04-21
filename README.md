@@ -2,9 +2,9 @@ Provides [source_gen](https://pub.dev/packages/source_gen) `Generator` for gener
 
 ## easy_enum
 * Package: [easy_enum](https://pub.dev/packages/easy_enum)
-* [Source code](https://github.com/faithoflifedev/easy_enum/tree/master/easy_enum)
+* [Source code](https://github.com/faithoflifedev/easy_enum/tree/main/easy_enum)
 
 
 ## easy_enum_generator
 * Package: [easy_enum_generator](https://pub.dev/packages/easy_enum_generator)
-* [Source code](https://github.com/faithoflifedev/easy_enum_generator/tree/master/easy_enum_generator)
+* [Source code](https://github.com/faithoflifedev/easy_enum/tree/main/easy_enum_generator)
