@@ -6,7 +6,7 @@ Provides [Dart Build System](https://pub.dev/packages/build) builder for generat
 
 #### In your `pubspec.yaml` file:
 - Add to `dependencies` section `easy_enum: ^1.0.0`
-- Add to `dev_dependencies` section `easy_enum_generator: ^1.0.0`
+- Add to `dev_dependencies` section `easy_enum_generator: ^1.0.1`
 - Add to `dev_dependencies` section `build_runner: ^2.0.0`
 - Set `environment` to at least Dart 2.12.0 version like so: `">=2.12.0 <3.0.0"`
 
