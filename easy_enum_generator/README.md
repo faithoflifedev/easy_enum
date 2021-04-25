@@ -27,7 +27,7 @@ dependencies:
 dev_dependencies:
   ...
   build_runner: ^2.0.0
-  easy_enum_generator: ^1.0.0
+  easy_enum_generator: ^1.0.1
 ```
 
 #### Annotate your class with `EasyEnum` annotation:
