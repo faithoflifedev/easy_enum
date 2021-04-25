@@ -1,7 +1,11 @@
-## 1.0.0
+## 1.0.2
 
-- Initial version
+- Updated depedency version in the README.md
 
 ## 1.0.1
 
 - Issue corrected with the build.yaml
+
+## 1.0.0
+
+- Initial version
