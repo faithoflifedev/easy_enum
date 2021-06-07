@@ -8,7 +8,8 @@ build/
 **/pubspec.lock
 
 # Directory created by dartdoc
-doc/api/
+easy_enum_generator/doc/api/
+easy_enum/doc/api/
 
 # VS Code
 .vscode/
