@@ -7,6 +7,7 @@ import 'package:easy_enum/easy_enum.dart';
 
 ///Generate the extension code
 class EasyEnumGenerator extends GeneratorForAnnotation<EasyEnum> {
+  ///The hard work takes place here
   @override
   String generateForAnnotatedElement(
       Element element, ConstantReader annotation, BuildStep buildStep) {
