@@ -22,12 +22,12 @@ environment:
 
 dependencies:
   ...
-  easy_enum: ^2.0.0
+  easy_enum: ^1.0.0
   
 dev_dependencies:
   ...
   build_runner: ^2.0.0
-  easy_enum_generator: ^1.0.2
+  easy_enum_generator: ^1.0.3
 ```
 
 #### Annotate your class with `EasyEnum` annotation:

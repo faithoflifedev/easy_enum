@@ -3,6 +3,6 @@ builders:
     import: 'package:easy_enum_generator/easy_enum_generator.dart'
     builder_factories: ['serializeGeneratorBuilder']
     auto_apply: dependents
-    build_extensions: {".dart": [".enum.part"]}
+    build_extensions: {".dart": ["enum.g.part"]}
     build_to: cache
     applies_builders: ["source_gen|combining_builder"]

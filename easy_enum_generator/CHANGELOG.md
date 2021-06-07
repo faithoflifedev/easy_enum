@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Added example to the docs
+
 ## 1.0.2
 
 - Updated depedency version in the README.md

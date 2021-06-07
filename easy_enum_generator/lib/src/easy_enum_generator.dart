@@ -5,6 +5,7 @@ import 'package:recase/recase.dart';
 import 'package:source_gen/source_gen.dart';
 import 'package:easy_enum/easy_enum.dart';
 
+///Generate the extension code
 class EasyEnumGenerator extends GeneratorForAnnotation<EasyEnum> {
   @override
   String generateForAnnotatedElement(
@@ -41,6 +42,7 @@ class EasyEnumGenerator extends GeneratorForAnnotation<EasyEnum> {
   }
 }
 
+///the [ModelVisitor]
 class ModelVisitor extends SimpleElementVisitor {
   final List<String> fields = [];
 
