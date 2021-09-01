@@ -5,6 +5,7 @@ Provides [Dart Build System](https://pub.dev/packages/build) builder for generat
 ## Usage
 
 #### In your `pubspec.yaml` file:
+
 - Add to `dependencies` section `easy_enum: ^1.0.0`
 - Add to `dev_dependencies` section `easy_enum_generator: ^1.0.1`
 - Add to `dev_dependencies` section `build_runner: ^2.0.0`
@@ -23,11 +24,11 @@ environment:
 dependencies:
   ...
   easy_enum: ^1.0.0
-  
+
 dev_dependencies:
   ...
   build_runner: ^2.0.0
-  easy_enum_generator: ^1.0.3
+  easy_enum_generator: ^2.0.0
 ```
 
 #### Annotate your class with `EasyEnum` annotation:
@@ -131,7 +132,7 @@ if ( someVal.simpleState == SimpleState.paused ) {
 
 #### Alternate getter names
 
-By default you can get the string representation of your enum using the `value` getter and get the `enum` representation to the string by 
+By default you can get the string representation of your enum using the `value` getter and get the `enum` representation to the string by
 using the `camelCase` name of the enum, ex. with "enum SimpleState ..." the enum is retrieved with "myString.simpleState".
 
 If you want to change the getter names for retrieving the related `enum` values you can add parameters to the annotation like this:
