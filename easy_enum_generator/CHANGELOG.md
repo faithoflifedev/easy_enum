@@ -1,3 +1,7 @@
+## 2.0.1
+
+- Dependency bumps and workflow adjustment
+
 ## 2.0.0
 
 - Updated dependencies
