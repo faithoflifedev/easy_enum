@@ -1,25 +1,26 @@
-[![Pub Package](https://img.shields.io/pub/v/easy_enum_generator.svg)](https://pub.dev/packages/easy_enum_generator)
-
 Provides [Dart Build System](https://pub.dev/packages/build) builder for generating `EasyEnum` extensions for classes annotated with [easy_enum](https://pub.dev/packages/easy_enum).
+
+[![Pub Package](https://img.shields.io/pub/v/easy_enum_generator.svg)](https://pub.dev/packages/easy_enum_generator)
+[![Build Status](https://github.com/faithoflifedev/easy_enum/workflows/Dart/badge.svg)](https://github.com/faithoflifedev/easy_enum/actions)
 
 ## Usage
 
 #### In your `pubspec.yaml` file:
 
 - Add to `dependencies` section `easy_enum: ^1.0.0`
-- Add to `dev_dependencies` section `easy_enum_generator: ^1.0.1`
-- Add to `dev_dependencies` section `build_runner: ^2.0.0`
-- Set `environment` to at least Dart 2.12.0 version like so: `">=2.12.0 <3.0.0"`
+- Add to `dev_dependencies` section `easy_enum_generator: ^2.0.1`
+- Add to `dev_dependencies` section `build_runner: ^2.1.4`
+- Set `environment` to at least Dart 2.13.0 version like so: `">=2.13.0 <3.0.0"`
 
 Your `pubspec.yaml` should look like so:
 
-```yaml
+```yml
 name: project_name
 description: project description
 version: 1.0.0
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.13.0 <3.0.0"
 
 dependencies:
   ...
@@ -27,8 +28,8 @@ dependencies:
 
 dev_dependencies:
   ...
-  build_runner: ^2.0.0
-  easy_enum_generator: ^2.0.0
+  build_runner: ^2.1.4
+  easy_enum_generator: ^2.0.1
 ```
 
 #### Annotate your class with `EasyEnum` annotation:

@@ -1,4 +1,4 @@
-import 'package:example/example_usage.dart';
+import 'lib/example_usage.dart';
 
 void main(List<String> arguments) {
   print('test:');
