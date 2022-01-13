@@ -1,3 +1,7 @@
+## 2.0.2
+
+- Dependency bump
+
 ## 2.0.1
 
 - Dependency bumps and workflow adjustment
